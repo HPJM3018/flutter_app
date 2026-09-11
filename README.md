@@ -1,6 +1,6 @@
 # Miam 🍲 — carnet de recettes bilingue
 
-[![CI](https://github.com/OWNER/miam/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/miam/actions/workflows/ci.yml)
+[![CI](https://github.com/HPJM3018/flutter_app/actions/workflows/ci.yml/badge.svg)](https://github.com/HPJM3018/flutter_app/actions/workflows/ci.yml)
 ![Flutter](https://img.shields.io/badge/Flutter-3.44-02569B?logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-3.12-0175C2?logo=dart)
 ![Tests](https://img.shields.io/badge/tests-95-success)
@@ -65,7 +65,7 @@ le démarrage.
 embarqué dans l'app, les photos viennent du réseau (mises en cache ensuite).
 
 ```bash
-git clone https://github.com/OWNER/miam.git && cd miam
+git clone https://github.com/HPJM3018/flutter_app.git && cd flutter_app
 flutter pub get              # génère aussi les traductions (lib/l10n/generated)
 flutter run                  # Android, iOS, Web ou Linux desktop
 ```

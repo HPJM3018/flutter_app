@@ -4,6 +4,13 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    ignore:
+      # Versions imposées par le SDK Flutter (flutter_localizations, flutter_test) :
+      # les monter à la main casse `flutter pub get`.
+      - dependency-name: intl
+      - dependency-name: meta
+      - dependency-name: vector_math
+      - dependency-name: material_color_utilities
     groups:
       flutter-dependencies:
         patterns: ['*']

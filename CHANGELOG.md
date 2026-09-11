@@ -90,8 +90,8 @@ build (`+N` dans `pubspec.yaml`) augmente à chaque version publiée.
   (1 250 g → 1,25 kg, fractions ½ ¼ ¾).
 - Architecture par fonctionnalité : Riverpod 3, flutter_hooks, go_router.
 
-[Non publié]: https://github.com/OWNER/miam/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/OWNER/miam/compare/v0.3.0...v1.0.0
-[0.3.0]: https://github.com/OWNER/miam/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/OWNER/miam/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/OWNER/miam/releases/tag/v0.1.0
+[Non publié]: https://github.com/HPJM3018/flutter_app/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/HPJM3018/flutter_app/compare/v0.3.0...v1.0.0
+[0.3.0]: https://github.com/HPJM3018/flutter_app/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/HPJM3018/flutter_app/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/HPJM3018/flutter_app/releases/tag/v0.1.0
