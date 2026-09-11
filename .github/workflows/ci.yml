@@ -55,7 +55,7 @@ jobs:
         run: flutter test --coverage --reporter github
       - name: Seuil de couverture
         run: dart run tool/check_coverage.dart ${{ env.COVERAGE_THRESHOLD }}
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: coverage-lcov
           path: coverage/lcov.info
@@ -89,7 +89,7 @@ jobs:
           xvfb-run -a flutter drive --profile -d linux \
             --driver=test_driver/perf_driver.dart \
             --target=integration_test/performance_test.dart
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: frame-timings
@@ -127,7 +127,7 @@ jobs:
       - name: Build Web (release)
         if: matrix.target == 'web'
         run: flutter build web --release
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: miam-${{ matrix.target }}
           path: |
