@@ -1,0 +1,2120 @@
+{
+ "version": 1,
+ "source": "Photos: TheMealDB.com",
+ "recipes": [
+  {
+   "id": "ratatouille",
+   "title": {
+    "fr": "Ratatouille provençale",
+    "en": "Provençal ratatouille"
+   },
+   "description": {
+    "fr": "Le grand classique du soleil : des légumes d'été mijotés doucement à l'huile d'olive.",
+    "en": "The sunny classic: summer vegetables gently stewed in olive oil."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/wrpwuu1511786491.jpg",
+   "category": "main",
+   "difficulty": "medium",
+   "prepMinutes": 25,
+   "cookMinutes": 50,
+   "servings": 4,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "eggplant",
+     "name": {
+      "fr": "Aubergine",
+      "en": "Aubergine"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "zucchini",
+     "name": {
+      "fr": "Courgettes",
+      "en": "Courgettes"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "bell-pepper",
+     "name": {
+      "fr": "Poivrons",
+      "en": "Peppers"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "tomato",
+     "name": {
+      "fr": "Tomates",
+      "en": "Tomatoes"
+     },
+     "quantity": 4,
+     "unit": "piece"
+    },
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "garlic",
+     "name": {
+      "fr": "Ail",
+      "en": "Garlic"
+     },
+     "quantity": 3,
+     "unit": "clove"
+    },
+    {
+     "id": "olive-oil",
+     "name": {
+      "fr": "Huile d'olive",
+      "en": "Olive oil"
+     },
+     "quantity": 4,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "thyme",
+     "name": {
+      "fr": "Thym",
+      "en": "Thyme"
+     },
+     "quantity": 2,
+     "unit": "pinch"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Coupez l'aubergine, les courgettes et les poivrons en dés de 2 cm.",
+     "en": "Cut the aubergine, courgettes and peppers into 2 cm cubes."
+    },
+    {
+     "fr": "Faites revenir l'oignon émincé et l'ail dans l'huile d'olive 5 minutes.",
+     "en": "Fry the sliced onion and garlic in the olive oil for 5 minutes."
+    },
+    {
+     "fr": "Ajoutez les poivrons et l'aubergine, puis faites dorer 10 minutes.",
+     "en": "Add the peppers and aubergine and brown for 10 minutes."
+    },
+    {
+     "fr": "Ajoutez les courgettes, les tomates concassées et le thym. Salez, poivrez.",
+     "en": "Add the courgettes, chopped tomatoes and thyme. Season."
+    },
+    {
+     "fr": "Couvrez et laissez mijoter 35 minutes à feu doux en remuant de temps en temps.",
+     "en": "Cover and simmer gently for 35 minutes, stirring occasionally."
+    }
+   ]
+  },
+  {
+   "id": "beef-bourguignon",
+   "title": {
+    "fr": "Bœuf bourguignon",
+    "en": "Beef bourguignon"
+   },
+   "description": {
+    "fr": "Un plat de fête qui prend son temps : bœuf fondant, vin rouge et petits légumes.",
+    "en": "A slow-cooked feast: melting beef, red wine and vegetables."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/vtqxtu1511784197.jpg",
+   "category": "main",
+   "difficulty": "hard",
+   "prepMinutes": 30,
+   "cookMinutes": 180,
+   "servings": 6,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "beef",
+     "name": {
+      "fr": "Bœuf à braiser",
+      "en": "Braising beef"
+     },
+     "quantity": 1.2,
+     "unit": "kilogram"
+    },
+    {
+     "id": "bacon",
+     "name": {
+      "fr": "Lardons",
+      "en": "Bacon lardons"
+     },
+     "quantity": 150,
+     "unit": "gram"
+    },
+    {
+     "id": "red-wine",
+     "name": {
+      "fr": "Vin rouge",
+      "en": "Red wine"
+     },
+     "quantity": 750,
+     "unit": "milliliter"
+    },
+    {
+     "id": "beef-stock",
+     "name": {
+      "fr": "Bouillon de bœuf",
+      "en": "Beef stock"
+     },
+     "quantity": 300,
+     "unit": "milliliter"
+    },
+    {
+     "id": "carrot",
+     "name": {
+      "fr": "Carottes",
+      "en": "Carrots"
+     },
+     "quantity": 3,
+     "unit": "piece"
+    },
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "mushroom",
+     "name": {
+      "fr": "Champignons de Paris",
+      "en": "Button mushrooms"
+     },
+     "quantity": 250,
+     "unit": "gram"
+    },
+    {
+     "id": "garlic",
+     "name": {
+      "fr": "Ail",
+      "en": "Garlic"
+     },
+     "quantity": 2,
+     "unit": "clove"
+    },
+    {
+     "id": "flour",
+     "name": {
+      "fr": "Farine",
+      "en": "Flour"
+     },
+     "quantity": 2,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 30,
+     "unit": "gram"
+    },
+    {
+     "id": "thyme",
+     "name": {
+      "fr": "Thym",
+      "en": "Thyme"
+     },
+     "quantity": 2,
+     "unit": "pinch"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Coupez le bœuf en gros cubes et épongez-les.",
+     "en": "Cut the beef into large cubes and pat dry."
+    },
+    {
+     "fr": "Faites dorer les lardons puis la viande par petites quantités dans une cocotte.",
+     "en": "Brown the bacon, then the beef in batches in a casserole."
+    },
+    {
+     "fr": "Ajoutez oignons et carottes, saupoudrez de farine et remuez 2 minutes.",
+     "en": "Add onions and carrots, sprinkle with flour and stir for 2 minutes."
+    },
+    {
+     "fr": "Versez le vin et le bouillon, ajoutez l'ail et le thym. Portez à frémissement.",
+     "en": "Pour in the wine and stock, add garlic and thyme. Bring to a simmer."
+    },
+    {
+     "fr": "Couvrez et laissez cuire 2 h 30 à feu très doux.",
+     "en": "Cover and cook on very low heat for 2½ hours."
+    },
+    {
+     "fr": "Faites sauter les champignons au beurre et ajoutez-les 20 minutes avant la fin.",
+     "en": "Sauté the mushrooms in butter and add them 20 minutes before the end."
+    }
+   ]
+  },
+  {
+   "id": "tarte-tatin",
+   "title": {
+    "fr": "Tarte Tatin",
+    "en": "Tarte Tatin"
+   },
+   "description": {
+    "fr": "La tarte renversée aux pommes caramélisées, née d'une heureuse maladresse.",
+    "en": "The upside-down caramelised apple tart born from a happy accident."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/ryspuw1511786688.jpg",
+   "category": "dessert",
+   "difficulty": "medium",
+   "prepMinutes": 25,
+   "cookMinutes": 40,
+   "servings": 6,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "apple",
+     "name": {
+      "fr": "Pommes",
+      "en": "Apples"
+     },
+     "quantity": 6,
+     "unit": "piece"
+    },
+    {
+     "id": "sugar",
+     "name": {
+      "fr": "Sucre",
+      "en": "Sugar"
+     },
+     "quantity": 120,
+     "unit": "gram"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 80,
+     "unit": "gram"
+    },
+    {
+     "id": "puff-pastry",
+     "name": {
+      "fr": "Pâte feuilletée",
+      "en": "Puff pastry"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "cinnamon",
+     "name": {
+      "fr": "Cannelle",
+      "en": "Cinnamon"
+     },
+     "quantity": 1,
+     "unit": "pinch"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Préchauffez le four à 200 °C.",
+     "en": "Preheat the oven to 200 °C."
+    },
+    {
+     "fr": "Faites un caramel blond avec le sucre et le beurre dans un moule allant sur le feu.",
+     "en": "Make a golden caramel with the sugar and butter in an ovenproof pan."
+    },
+    {
+     "fr": "Disposez les pommes en quartiers serrés sur le caramel et laissez cuire 10 minutes.",
+     "en": "Arrange apple quarters tightly on the caramel and cook for 10 minutes."
+    },
+    {
+     "fr": "Recouvrez de pâte feuilletée en rentrant les bords.",
+     "en": "Cover with the puff pastry, tucking in the edges."
+    },
+    {
+     "fr": "Enfournez 30 minutes, puis retournez la tarte encore tiède sur un plat.",
+     "en": "Bake for 30 minutes, then turn out onto a plate while still warm."
+    }
+   ]
+  },
+  {
+   "id": "pancakes",
+   "title": {
+    "fr": "Pancakes moelleux",
+    "en": "Fluffy pancakes"
+   },
+   "description": {
+    "fr": "Des pancakes épais et aériens pour un brunch réussi.",
+    "en": "Thick, airy pancakes for the perfect brunch."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+   "category": "breakfast",
+   "difficulty": "easy",
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "servings": 4,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": {
+      "fr": "Farine",
+      "en": "Flour"
+     },
+     "quantity": 200,
+     "unit": "gram"
+    },
+    {
+     "id": "milk",
+     "name": {
+      "fr": "Lait",
+      "en": "Milk"
+     },
+     "quantity": 300,
+     "unit": "milliliter"
+    },
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "sugar",
+     "name": {
+      "fr": "Sucre",
+      "en": "Sugar"
+     },
+     "quantity": 30,
+     "unit": "gram"
+    },
+    {
+     "id": "baking-powder",
+     "name": {
+      "fr": "Levure chimique",
+      "en": "Baking powder"
+     },
+     "quantity": 2,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 30,
+     "unit": "gram"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "maple-syrup",
+     "name": {
+      "fr": "Sirop d'érable",
+      "en": "Maple syrup"
+     },
+     "quantity": 4,
+     "unit": "tablespoon"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Mélangez la farine, la levure, le sucre et le sel.",
+     "en": "Mix the flour, baking powder, sugar and salt."
+    },
+    {
+     "fr": "Fouettez les œufs avec le lait et le beurre fondu.",
+     "en": "Whisk the eggs with the milk and melted butter."
+    },
+    {
+     "fr": "Versez le liquide sur les poudres et mélangez sans trop travailler la pâte.",
+     "en": "Pour the wet mix into the dry and stir briefly."
+    },
+    {
+     "fr": "Cuisez des petites louches de pâte dans une poêle chaude, 2 minutes par face.",
+     "en": "Cook small ladles of batter in a hot pan, 2 minutes per side."
+    },
+    {
+     "fr": "Servez chaud avec le sirop d'érable.",
+     "en": "Serve hot with maple syrup."
+    }
+   ]
+  },
+  {
+   "id": "shakshuka",
+   "title": {
+    "fr": "Shakshuka",
+    "en": "Shakshuka"
+   },
+   "description": {
+    "fr": "Des œufs pochés dans une sauce tomate épicée aux poivrons, à partager à la poêle.",
+    "en": "Eggs poached in a spiced tomato and pepper sauce, shared straight from the pan."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg",
+   "category": "breakfast",
+   "difficulty": "easy",
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "servings": 2,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 4,
+     "unit": "piece"
+    },
+    {
+     "id": "crushed-tomato",
+     "name": {
+      "fr": "Tomates concassées",
+      "en": "Chopped tomatoes"
+     },
+     "quantity": 400,
+     "unit": "gram"
+    },
+    {
+     "id": "bell-pepper",
+     "name": {
+      "fr": "Poivrons",
+      "en": "Peppers"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "garlic",
+     "name": {
+      "fr": "Ail",
+      "en": "Garlic"
+     },
+     "quantity": 2,
+     "unit": "clove"
+    },
+    {
+     "id": "cumin",
+     "name": {
+      "fr": "Cumin moulu",
+      "en": "Ground cumin"
+     },
+     "quantity": 1,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "paprika",
+     "name": {
+      "fr": "Paprika",
+      "en": "Paprika"
+     },
+     "quantity": 1,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "olive-oil",
+     "name": {
+      "fr": "Huile d'olive",
+      "en": "Olive oil"
+     },
+     "quantity": 2,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "coriander",
+     "name": {
+      "fr": "Coriandre",
+      "en": "Coriander"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites fondre l'oignon et le poivron émincés dans l'huile d'olive.",
+     "en": "Soften the sliced onion and pepper in the olive oil."
+    },
+    {
+     "fr": "Ajoutez l'ail, le cumin et le paprika, puis les tomates. Laissez réduire 10 minutes.",
+     "en": "Add the garlic, cumin and paprika, then the tomatoes. Reduce for 10 minutes."
+    },
+    {
+     "fr": "Creusez quatre puits et cassez-y les œufs.",
+     "en": "Make four wells and crack the eggs into them."
+    },
+    {
+     "fr": "Couvrez et cuisez 6 à 8 minutes jusqu'à ce que les blancs soient pris.",
+     "en": "Cover and cook for 6–8 minutes until the whites are set."
+    },
+    {
+     "fr": "Parsemez de coriandre et servez avec du pain.",
+     "en": "Sprinkle with coriander and serve with bread."
+    }
+   ]
+  },
+  {
+   "id": "lasagne",
+   "title": {
+    "fr": "Lasagnes à la bolognaise",
+    "en": "Beef lasagne"
+   },
+   "description": {
+    "fr": "Des couches généreuses de sauce bolognaise, béchamel et fromage gratiné.",
+    "en": "Generous layers of bolognese, béchamel and golden cheese."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
+   "category": "main",
+   "difficulty": "medium",
+   "prepMinutes": 40,
+   "cookMinutes": 45,
+   "servings": 6,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "lasagne-sheet",
+     "name": {
+      "fr": "Feuilles de lasagne",
+      "en": "Lasagne sheets"
+     },
+     "quantity": 12,
+     "unit": "piece"
+    },
+    {
+     "id": "minced-beef",
+     "name": {
+      "fr": "Bœuf haché",
+      "en": "Minced beef"
+     },
+     "quantity": 500,
+     "unit": "gram"
+    },
+    {
+     "id": "crushed-tomato",
+     "name": {
+      "fr": "Tomates concassées",
+      "en": "Chopped tomatoes"
+     },
+     "quantity": 800,
+     "unit": "gram"
+    },
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "garlic",
+     "name": {
+      "fr": "Ail",
+      "en": "Garlic"
+     },
+     "quantity": 2,
+     "unit": "clove"
+    },
+    {
+     "id": "milk",
+     "name": {
+      "fr": "Lait",
+      "en": "Milk"
+     },
+     "quantity": 600,
+     "unit": "milliliter"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 50,
+     "unit": "gram"
+    },
+    {
+     "id": "flour",
+     "name": {
+      "fr": "Farine",
+      "en": "Flour"
+     },
+     "quantity": 50,
+     "unit": "gram"
+    },
+    {
+     "id": "mozzarella",
+     "name": {
+      "fr": "Mozzarella",
+      "en": "Mozzarella"
+     },
+     "quantity": 125,
+     "unit": "gram"
+    },
+    {
+     "id": "parmesan",
+     "name": {
+      "fr": "Parmesan",
+      "en": "Parmesan"
+     },
+     "quantity": 60,
+     "unit": "gram"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites revenir l'oignon et l'ail, ajoutez le bœuf puis les tomates. Mijotez 20 minutes.",
+     "en": "Fry the onion and garlic, add the beef then the tomatoes. Simmer for 20 minutes."
+    },
+    {
+     "fr": "Préparez la béchamel : faites fondre le beurre, ajoutez la farine puis le lait en fouettant.",
+     "en": "Make the béchamel: melt the butter, add the flour, then whisk in the milk."
+    },
+    {
+     "fr": "Préchauffez le four à 180 °C.",
+     "en": "Preheat the oven to 180 °C."
+    },
+    {
+     "fr": "Alternez sauce, feuilles de lasagne et béchamel dans un plat, en finissant par la béchamel.",
+     "en": "Layer sauce, lasagne sheets and béchamel in a dish, ending with béchamel."
+    },
+    {
+     "fr": "Parsemez de mozzarella et de parmesan, puis enfournez 45 minutes.",
+     "en": "Top with mozzarella and parmesan and bake for 45 minutes."
+    }
+   ]
+  },
+  {
+   "id": "spaghetti-carbonara",
+   "title": {
+    "fr": "Spaghetti alla carbonara",
+    "en": "Spaghetti alla carbonara"
+   },
+   "description": {
+    "fr": "La vraie carbonara romaine : sans crème, juste des œufs, du fromage et du poivre.",
+    "en": "The real Roman carbonara: no cream, just eggs, cheese and pepper."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+   "category": "main",
+   "difficulty": "easy",
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "servings": 4,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "spaghetti",
+     "name": {
+      "fr": "Spaghetti",
+      "en": "Spaghetti"
+     },
+     "quantity": 400,
+     "unit": "gram"
+    },
+    {
+     "id": "guanciale",
+     "name": {
+      "fr": "Guanciale ou pancetta",
+      "en": "Guanciale or pancetta"
+     },
+     "quantity": 150,
+     "unit": "gram"
+    },
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 4,
+     "unit": "piece"
+    },
+    {
+     "id": "parmesan",
+     "name": {
+      "fr": "Parmesan",
+      "en": "Parmesan"
+     },
+     "quantity": 80,
+     "unit": "gram"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites cuire les spaghetti dans une grande casserole d'eau salée.",
+     "en": "Cook the spaghetti in a large pan of salted water."
+    },
+    {
+     "fr": "Pendant ce temps, faites dorer le guanciale en lanières à sec.",
+     "en": "Meanwhile, fry the guanciale strips in a dry pan until crisp."
+    },
+    {
+     "fr": "Fouettez les œufs avec le parmesan râpé et beaucoup de poivre.",
+     "en": "Whisk the eggs with the grated parmesan and plenty of pepper."
+    },
+    {
+     "fr": "Hors du feu, mélangez les pâtes égouttées au guanciale puis au mélange d'œufs, en ajoutant un peu d'eau de cuisson pour lier.",
+     "en": "Off the heat, toss the drained pasta with the guanciale then the egg mix, adding a splash of pasta water."
+    }
+   ]
+  },
+  {
+   "id": "french-onion-soup",
+   "title": {
+    "fr": "Soupe à l'oignon gratinée",
+    "en": "French onion soup"
+   },
+   "description": {
+    "fr": "Des oignons longuement caramélisés, un bouillon riche et un croûton gratiné.",
+    "en": "Slowly caramelised onions, a rich broth and a cheesy crouton."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/xvrrux1511783685.jpg",
+   "category": "starter",
+   "difficulty": "medium",
+   "prepMinutes": 15,
+   "cookMinutes": 60,
+   "servings": 4,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 1,
+     "unit": "kilogram"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 50,
+     "unit": "gram"
+    },
+    {
+     "id": "flour",
+     "name": {
+      "fr": "Farine",
+      "en": "Flour"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "white-wine",
+     "name": {
+      "fr": "Vin blanc sec",
+      "en": "Dry white wine"
+     },
+     "quantity": 150,
+     "unit": "milliliter"
+    },
+    {
+     "id": "beef-stock",
+     "name": {
+      "fr": "Bouillon de bœuf",
+      "en": "Beef stock"
+     },
+     "quantity": 1.2,
+     "unit": "liter"
+    },
+    {
+     "id": "baguette",
+     "name": {
+      "fr": "Tranches de baguette",
+      "en": "Baguette slices"
+     },
+     "quantity": 8,
+     "unit": "slice"
+    },
+    {
+     "id": "gruyere",
+     "name": {
+      "fr": "Gruyère râpé",
+      "en": "Grated Gruyère"
+     },
+     "quantity": 150,
+     "unit": "gram"
+    },
+    {
+     "id": "thyme",
+     "name": {
+      "fr": "Thym",
+      "en": "Thyme"
+     },
+     "quantity": 1,
+     "unit": "pinch"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Émincez finement les oignons.",
+     "en": "Thinly slice the onions."
+    },
+    {
+     "fr": "Faites-les caraméliser au beurre à feu doux pendant 40 minutes.",
+     "en": "Caramelise them in the butter over low heat for 40 minutes."
+    },
+    {
+     "fr": "Saupoudrez de farine, déglacez au vin blanc puis ajoutez le bouillon et le thym. Mijotez 20 minutes.",
+     "en": "Sprinkle with flour, deglaze with the wine, then add stock and thyme. Simmer for 20 minutes."
+    },
+    {
+     "fr": "Versez dans des bols, posez les tranches de baguette et couvrez de gruyère.",
+     "en": "Ladle into bowls, top with baguette slices and cover with Gruyère."
+    },
+    {
+     "fr": "Gratinez sous le gril du four 5 minutes.",
+     "en": "Grill for 5 minutes until bubbling."
+    }
+   ]
+  },
+  {
+   "id": "creme-brulee",
+   "title": {
+    "fr": "Crème brûlée au chocolat blanc",
+    "en": "White chocolate crème brûlée"
+   },
+   "description": {
+    "fr": "Une crème onctueuse sous une fine couche de caramel qui craque sous la cuillère.",
+    "en": "A silky custard under a thin caramel crust that cracks under the spoon."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/uryqru1511798039.jpg",
+   "category": "dessert",
+   "difficulty": "medium",
+   "prepMinutes": 20,
+   "cookMinutes": 40,
+   "servings": 4,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "cream",
+     "name": {
+      "fr": "Crème liquide",
+      "en": "Double cream"
+     },
+     "quantity": 500,
+     "unit": "milliliter"
+    },
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 5,
+     "unit": "piece"
+    },
+    {
+     "id": "white-chocolate",
+     "name": {
+      "fr": "Chocolat blanc",
+      "en": "White chocolate"
+     },
+     "quantity": 100,
+     "unit": "gram"
+    },
+    {
+     "id": "sugar",
+     "name": {
+      "fr": "Sucre",
+      "en": "Sugar"
+     },
+     "quantity": 80,
+     "unit": "gram"
+    },
+    {
+     "id": "vanilla",
+     "name": {
+      "fr": "Extrait de vanille",
+      "en": "Vanilla extract"
+     },
+     "quantity": 1,
+     "unit": "teaspoon"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Préchauffez le four à 150 °C.",
+     "en": "Preheat the oven to 150 °C."
+    },
+    {
+     "fr": "Faites chauffer la crème avec la vanille puis faites-y fondre le chocolat blanc.",
+     "en": "Warm the cream with the vanilla, then melt the white chocolate into it."
+    },
+    {
+     "fr": "Fouettez les jaunes avec 50 g de sucre et versez la crème chaude dessus.",
+     "en": "Whisk the yolks with 50 g sugar and pour over the hot cream."
+    },
+    {
+     "fr": "Répartissez dans des ramequins et cuisez 40 minutes au bain-marie.",
+     "en": "Divide into ramekins and bake in a water bath for 40 minutes."
+    },
+    {
+     "fr": "Réfrigérez 3 heures, saupoudrez du reste de sucre et caramélisez au chalumeau.",
+     "en": "Chill for 3 hours, sprinkle with the remaining sugar and torch until caramelised."
+    }
+   ]
+  },
+  {
+   "id": "salmon-avocado-salad",
+   "title": {
+    "fr": "Salade saumon et avocat",
+    "en": "Salmon & avocado salad"
+   },
+   "description": {
+    "fr": "Une salade fraîche et complète, prête en un quart d'heure.",
+    "en": "A fresh, filling salad ready in fifteen minutes."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
+   "category": "starter",
+   "difficulty": "easy",
+   "prepMinutes": 15,
+   "cookMinutes": 10,
+   "servings": 2,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "salmon",
+     "name": {
+      "fr": "Saumon",
+      "en": "Salmon fillet"
+     },
+     "quantity": 250,
+     "unit": "gram"
+    },
+    {
+     "id": "avocado",
+     "name": {
+      "fr": "Avocats",
+      "en": "Avocados"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "salad-leaves",
+     "name": {
+      "fr": "Jeunes pousses",
+      "en": "Salad leaves"
+     },
+     "quantity": 100,
+     "unit": "gram"
+    },
+    {
+     "id": "cucumber",
+     "name": {
+      "fr": "Concombre",
+      "en": "Cucumber"
+     },
+     "quantity": 0.5,
+     "unit": "piece"
+    },
+    {
+     "id": "lemon",
+     "name": {
+      "fr": "Citron",
+      "en": "Lemon"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "olive-oil",
+     "name": {
+      "fr": "Huile d'olive",
+      "en": "Olive oil"
+     },
+     "quantity": 3,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites cuire le saumon 4 minutes par face dans une poêle chaude.",
+     "en": "Pan-fry the salmon for 4 minutes per side."
+    },
+    {
+     "fr": "Coupez les avocats et le concombre en tranches.",
+     "en": "Slice the avocados and cucumber."
+    },
+    {
+     "fr": "Préparez une vinaigrette avec le jus de citron, l'huile, le sel et le poivre.",
+     "en": "Make a dressing with lemon juice, oil, salt and pepper."
+    },
+    {
+     "fr": "Disposez les jeunes pousses, les légumes et le saumon émietté, puis arrosez de vinaigrette.",
+     "en": "Arrange the leaves, vegetables and flaked salmon, then drizzle with dressing."
+    }
+   ]
+  },
+  {
+   "id": "chocolate-avocado-mousse",
+   "title": {
+    "fr": "Mousse chocolat-avocat",
+    "en": "Chocolate avocado mousse"
+   },
+   "description": {
+    "fr": "Une mousse surprenante, dense et chocolatée, sans œufs ni crème.",
+    "en": "A surprising, rich chocolate mousse with no eggs or cream."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/uttuxy1511382180.jpg",
+   "category": "dessert",
+   "difficulty": "easy",
+   "prepMinutes": 15,
+   "cookMinutes": 0,
+   "servings": 4,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "avocado",
+     "name": {
+      "fr": "Avocats",
+      "en": "Avocados"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "dark-chocolate",
+     "name": {
+      "fr": "Chocolat noir",
+      "en": "Dark chocolate"
+     },
+     "quantity": 100,
+     "unit": "gram"
+    },
+    {
+     "id": "cocoa",
+     "name": {
+      "fr": "Cacao en poudre",
+      "en": "Cocoa powder"
+     },
+     "quantity": 2,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "maple-syrup",
+     "name": {
+      "fr": "Sirop d'érable",
+      "en": "Maple syrup"
+     },
+     "quantity": 4,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "vanilla",
+     "name": {
+      "fr": "Extrait de vanille",
+      "en": "Vanilla extract"
+     },
+     "quantity": 1,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites fondre le chocolat au bain-marie.",
+     "en": "Melt the chocolate over a bain-marie."
+    },
+    {
+     "fr": "Mixez la chair des avocats jusqu'à obtenir une purée lisse.",
+     "en": "Blend the avocado flesh until completely smooth."
+    },
+    {
+     "fr": "Ajoutez le chocolat fondu, le cacao, le sirop, la vanille et le sel, puis mixez à nouveau.",
+     "en": "Add the melted chocolate, cocoa, syrup, vanilla and salt, and blend again."
+    },
+    {
+     "fr": "Répartissez dans des verrines et réfrigérez au moins 1 heure.",
+     "en": "Spoon into glasses and chill for at least 1 hour."
+    }
+   ]
+  },
+  {
+   "id": "french-omelette",
+   "title": {
+    "fr": "Omelette baveuse",
+    "en": "French omelette"
+   },
+   "description": {
+    "fr": "Le geste parfait : une omelette roulée, dorée dehors et crémeuse dedans.",
+    "en": "The perfect technique: a rolled omelette, golden outside and creamy inside."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/yvpuuy1511797244.jpg",
+   "category": "breakfast",
+   "difficulty": "easy",
+   "prepMinutes": 5,
+   "cookMinutes": 5,
+   "servings": 1,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 3,
+     "unit": "piece"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 15,
+     "unit": "gram"
+    },
+    {
+     "id": "chives",
+     "name": {
+      "fr": "Ciboulette",
+      "en": "Chives"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Battez les œufs avec le sel et le poivre.",
+     "en": "Beat the eggs with salt and pepper."
+    },
+    {
+     "fr": "Faites mousser le beurre dans une poêle antiadhésive à feu moyen.",
+     "en": "Heat the butter in a non-stick pan until foaming."
+    },
+    {
+     "fr": "Versez les œufs et remuez vivement à la spatule en secouant la poêle.",
+     "en": "Pour in the eggs and stir quickly while shaking the pan."
+    },
+    {
+     "fr": "Quand l'omelette est encore baveuse, roulez-la et parsemez de ciboulette.",
+     "en": "While still slightly runny, roll it up and sprinkle with chives."
+    }
+   ]
+  },
+  {
+   "id": "thai-green-curry",
+   "title": {
+    "fr": "Curry vert thaï au poulet",
+    "en": "Thai green chicken curry"
+   },
+   "description": {
+    "fr": "Un curry parfumé et crémeux au lait de coco, relevé juste ce qu'il faut.",
+    "en": "A fragrant, creamy coconut curry with just the right kick."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+   "category": "main",
+   "difficulty": "medium",
+   "prepMinutes": 15,
+   "cookMinutes": 20,
+   "servings": 4,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "chicken",
+     "name": {
+      "fr": "Blancs de poulet",
+      "en": "Chicken breasts"
+     },
+     "quantity": 500,
+     "unit": "gram"
+    },
+    {
+     "id": "coconut-milk",
+     "name": {
+      "fr": "Lait de coco",
+      "en": "Coconut milk"
+     },
+     "quantity": 400,
+     "unit": "milliliter"
+    },
+    {
+     "id": "green-curry-paste",
+     "name": {
+      "fr": "Pâte de curry vert",
+      "en": "Green curry paste"
+     },
+     "quantity": 3,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "green-beans",
+     "name": {
+      "fr": "Haricots verts",
+      "en": "Green beans"
+     },
+     "quantity": 150,
+     "unit": "gram"
+    },
+    {
+     "id": "fish-sauce",
+     "name": {
+      "fr": "Sauce poisson",
+      "en": "Fish sauce"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "sugar",
+     "name": {
+      "fr": "Sucre",
+      "en": "Sugar"
+     },
+     "quantity": 1,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "lime",
+     "name": {
+      "fr": "Citron vert",
+      "en": "Lime"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "basil",
+     "name": {
+      "fr": "Basilic",
+      "en": "Basil"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "rice",
+     "name": {
+      "fr": "Riz basmati",
+      "en": "Basmati rice"
+     },
+     "quantity": 300,
+     "unit": "gram"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Lancez la cuisson du riz.",
+     "en": "Start cooking the rice."
+    },
+    {
+     "fr": "Faites revenir la pâte de curry 1 minute avec quelques cuillères de lait de coco.",
+     "en": "Fry the curry paste for 1 minute with a few spoons of coconut milk."
+    },
+    {
+     "fr": "Ajoutez le poulet en lamelles et faites-le saisir.",
+     "en": "Add the sliced chicken and sear it."
+    },
+    {
+     "fr": "Versez le reste du lait de coco, les haricots, la sauce poisson et le sucre. Mijotez 12 minutes.",
+     "en": "Add the rest of the coconut milk, beans, fish sauce and sugar. Simmer for 12 minutes."
+    },
+    {
+     "fr": "Terminez avec le jus de citron vert et le basilic, puis servez avec le riz.",
+     "en": "Finish with lime juice and basil, and serve with the rice."
+    }
+   ]
+  },
+  {
+   "id": "banana-pancakes",
+   "title": {
+    "fr": "Pancakes banane-avoine",
+    "en": "Banana oat pancakes"
+   },
+   "description": {
+    "fr": "Trois ingrédients, sans sucre ajouté : le petit-déjeuner express et gourmand.",
+    "en": "Three ingredients, no added sugar: the quick and tasty breakfast."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+   "category": "breakfast",
+   "difficulty": "easy",
+   "prepMinutes": 5,
+   "cookMinutes": 10,
+   "servings": 2,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "banana",
+     "name": {
+      "fr": "Bananes",
+      "en": "Bananas"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "oats",
+     "name": {
+      "fr": "Flocons d'avoine",
+      "en": "Rolled oats"
+     },
+     "quantity": 60,
+     "unit": "gram"
+    },
+    {
+     "id": "cinnamon",
+     "name": {
+      "fr": "Cannelle",
+      "en": "Cinnamon"
+     },
+     "quantity": 1,
+     "unit": "pinch"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 10,
+     "unit": "gram"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Écrasez les bananes à la fourchette.",
+     "en": "Mash the bananas with a fork."
+    },
+    {
+     "fr": "Ajoutez les œufs, les flocons d'avoine et la cannelle, puis mélangez.",
+     "en": "Add the eggs, oats and cinnamon and mix."
+    },
+    {
+     "fr": "Faites cuire de petites galettes dans une poêle beurrée, 2 minutes par face.",
+     "en": "Cook small pancakes in a buttered pan, 2 minutes per side."
+    }
+   ]
+  },
+  {
+   "id": "kidney-bean-curry",
+   "title": {
+    "fr": "Curry de haricots rouges",
+    "en": "Kidney bean curry"
+   },
+   "description": {
+    "fr": "Un rajma indien réconfortant, végétarien et économique.",
+    "en": "A comforting Indian rajma, vegetarian and budget-friendly."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/sywrsu1511463066.jpg",
+   "category": "main",
+   "difficulty": "easy",
+   "prepMinutes": 10,
+   "cookMinutes": 30,
+   "servings": 4,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "kidney-beans",
+     "name": {
+      "fr": "Haricots rouges cuits",
+      "en": "Cooked kidney beans"
+     },
+     "quantity": 500,
+     "unit": "gram"
+    },
+    {
+     "id": "crushed-tomato",
+     "name": {
+      "fr": "Tomates concassées",
+      "en": "Chopped tomatoes"
+     },
+     "quantity": 400,
+     "unit": "gram"
+    },
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "garlic",
+     "name": {
+      "fr": "Ail",
+      "en": "Garlic"
+     },
+     "quantity": 3,
+     "unit": "clove"
+    },
+    {
+     "id": "ginger",
+     "name": {
+      "fr": "Gingembre frais",
+      "en": "Fresh ginger"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "garam-masala",
+     "name": {
+      "fr": "Garam masala",
+      "en": "Garam masala"
+     },
+     "quantity": 2,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "cumin",
+     "name": {
+      "fr": "Cumin moulu",
+      "en": "Ground cumin"
+     },
+     "quantity": 1,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "olive-oil",
+     "name": {
+      "fr": "Huile d'olive",
+      "en": "Olive oil"
+     },
+     "quantity": 2,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "coriander",
+     "name": {
+      "fr": "Coriandre",
+      "en": "Coriander"
+     },
+     "quantity": 2,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "rice",
+     "name": {
+      "fr": "Riz basmati",
+      "en": "Basmati rice"
+     },
+     "quantity": 300,
+     "unit": "gram"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites dorer les oignons hachés dans l'huile.",
+     "en": "Brown the chopped onions in the oil."
+    },
+    {
+     "fr": "Ajoutez l'ail, le gingembre et les épices, puis faites revenir 1 minute.",
+     "en": "Add the garlic, ginger and spices and fry for 1 minute."
+    },
+    {
+     "fr": "Versez les tomates et les haricots rouges, puis laissez mijoter 20 minutes.",
+     "en": "Add the tomatoes and kidney beans and simmer for 20 minutes."
+    },
+    {
+     "fr": "Parsemez de coriandre et servez avec le riz.",
+     "en": "Sprinkle with coriander and serve with the rice."
+    }
+   ]
+  },
+  {
+   "id": "leblebi-soup",
+   "title": {
+    "fr": "Leblebi, soupe de pois chiches",
+    "en": "Leblebi chickpea soup"
+   },
+   "description": {
+    "fr": "La soupe tunisienne du matin : pois chiches, cumin, harissa et un œuf poché.",
+    "en": "Tunisia's morning soup: chickpeas, cumin, harissa and a poached egg."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/x2fw9e1560460636.jpg",
+   "category": "starter",
+   "difficulty": "easy",
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "servings": 4,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "chickpeas",
+     "name": {
+      "fr": "Pois chiches cuits",
+      "en": "Cooked chickpeas"
+     },
+     "quantity": 500,
+     "unit": "gram"
+    },
+    {
+     "id": "vegetable-stock",
+     "name": {
+      "fr": "Bouillon de légumes",
+      "en": "Vegetable stock"
+     },
+     "quantity": 1,
+     "unit": "liter"
+    },
+    {
+     "id": "garlic",
+     "name": {
+      "fr": "Ail",
+      "en": "Garlic"
+     },
+     "quantity": 4,
+     "unit": "clove"
+    },
+    {
+     "id": "cumin",
+     "name": {
+      "fr": "Cumin moulu",
+      "en": "Ground cumin"
+     },
+     "quantity": 2,
+     "unit": "teaspoon"
+    },
+    {
+     "id": "harissa",
+     "name": {
+      "fr": "Harissa",
+      "en": "Harissa"
+     },
+     "quantity": 1,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 4,
+     "unit": "piece"
+    },
+    {
+     "id": "lemon",
+     "name": {
+      "fr": "Citron",
+      "en": "Lemon"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "olive-oil",
+     "name": {
+      "fr": "Huile d'olive",
+      "en": "Olive oil"
+     },
+     "quantity": 3,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites revenir l'ail et le cumin dans l'huile d'olive.",
+     "en": "Fry the garlic and cumin in the olive oil."
+    },
+    {
+     "fr": "Ajoutez les pois chiches, la harissa et le bouillon. Laissez mijoter 20 minutes.",
+     "en": "Add the chickpeas, harissa and stock. Simmer for 20 minutes."
+    },
+    {
+     "fr": "Pochez les œufs directement dans la soupe frémissante, 4 minutes.",
+     "en": "Poach the eggs directly in the simmering soup for 4 minutes."
+    },
+    {
+     "fr": "Servez avec un filet de citron et d'huile d'olive.",
+     "en": "Serve with a squeeze of lemon and a drizzle of olive oil."
+    }
+   ]
+  },
+  {
+   "id": "salmon-prawn-risotto",
+   "title": {
+    "fr": "Risotto saumon et crevettes",
+    "en": "Salmon & prawn risotto"
+   },
+   "description": {
+    "fr": "Un risotto crémeux aux fruits de mer, parfumé au citron et aux épinards.",
+    "en": "A creamy seafood risotto with lemon and spinach."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+   "category": "main",
+   "difficulty": "medium",
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "servings": 4,
+   "vegetarian": false,
+   "ingredients": [
+    {
+     "id": "risotto-rice",
+     "name": {
+      "fr": "Riz à risotto",
+      "en": "Risotto rice"
+     },
+     "quantity": 300,
+     "unit": "gram"
+    },
+    {
+     "id": "salmon",
+     "name": {
+      "fr": "Saumon",
+      "en": "Salmon fillet"
+     },
+     "quantity": 250,
+     "unit": "gram"
+    },
+    {
+     "id": "prawn",
+     "name": {
+      "fr": "Crevettes décortiquées",
+      "en": "Peeled prawns"
+     },
+     "quantity": 200,
+     "unit": "gram"
+    },
+    {
+     "id": "onion",
+     "name": {
+      "fr": "Oignons",
+      "en": "Onions"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "white-wine",
+     "name": {
+      "fr": "Vin blanc sec",
+      "en": "Dry white wine"
+     },
+     "quantity": 150,
+     "unit": "milliliter"
+    },
+    {
+     "id": "vegetable-stock",
+     "name": {
+      "fr": "Bouillon de légumes",
+      "en": "Vegetable stock"
+     },
+     "quantity": 1,
+     "unit": "liter"
+    },
+    {
+     "id": "spinach",
+     "name": {
+      "fr": "Épinards",
+      "en": "Spinach"
+     },
+     "quantity": 100,
+     "unit": "gram"
+    },
+    {
+     "id": "butter",
+     "name": {
+      "fr": "Beurre",
+      "en": "Butter"
+     },
+     "quantity": 30,
+     "unit": "gram"
+    },
+    {
+     "id": "parmesan",
+     "name": {
+      "fr": "Parmesan",
+      "en": "Parmesan"
+     },
+     "quantity": 40,
+     "unit": "gram"
+    },
+    {
+     "id": "lemon",
+     "name": {
+      "fr": "Citron",
+      "en": "Lemon"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Faites fondre l'oignon haché dans le beurre, puis nacrez le riz 2 minutes.",
+     "en": "Soften the chopped onion in the butter, then toast the rice for 2 minutes."
+    },
+    {
+     "fr": "Déglacez au vin blanc et laissez absorber.",
+     "en": "Deglaze with the white wine and let it absorb."
+    },
+    {
+     "fr": "Ajoutez le bouillon chaud louche par louche pendant 18 minutes en remuant.",
+     "en": "Add the hot stock a ladle at a time for 18 minutes, stirring."
+    },
+    {
+     "fr": "Incorporez le saumon en dés, les crevettes et les épinards 5 minutes avant la fin.",
+     "en": "Stir in the diced salmon, prawns and spinach 5 minutes before the end."
+    },
+    {
+     "fr": "Hors du feu, ajoutez le parmesan et le zeste de citron. Couvrez 2 minutes avant de servir.",
+     "en": "Off the heat, stir in the parmesan and lemon zest. Rest for 2 minutes before serving."
+    }
+   ]
+  },
+  {
+   "id": "provencal-omelette-cake",
+   "title": {
+    "fr": "Gâteau d'omelettes provençal",
+    "en": "Provençal omelette cake"
+   },
+   "description": {
+    "fr": "Des omelettes colorées empilées comme un gâteau, idéal pour un pique-nique.",
+    "en": "Colourful omelettes stacked like a cake, perfect for a picnic."
+   },
+   "imageUrl": "https://www.themealdb.com/images/media/meals/qwtrtp1511799242.jpg",
+   "category": "starter",
+   "difficulty": "hard",
+   "prepMinutes": 40,
+   "cookMinutes": 30,
+   "servings": 6,
+   "vegetarian": true,
+   "ingredients": [
+    {
+     "id": "egg",
+     "name": {
+      "fr": "Œufs",
+      "en": "Eggs"
+     },
+     "quantity": 12,
+     "unit": "piece"
+    },
+    {
+     "id": "spinach",
+     "name": {
+      "fr": "Épinards",
+      "en": "Spinach"
+     },
+     "quantity": 150,
+     "unit": "gram"
+    },
+    {
+     "id": "bell-pepper",
+     "name": {
+      "fr": "Poivrons",
+      "en": "Peppers"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "zucchini",
+     "name": {
+      "fr": "Courgettes",
+      "en": "Courgettes"
+     },
+     "quantity": 1,
+     "unit": "piece"
+    },
+    {
+     "id": "tomato",
+     "name": {
+      "fr": "Tomates",
+      "en": "Tomatoes"
+     },
+     "quantity": 2,
+     "unit": "piece"
+    },
+    {
+     "id": "parmesan",
+     "name": {
+      "fr": "Parmesan",
+      "en": "Parmesan"
+     },
+     "quantity": 60,
+     "unit": "gram"
+    },
+    {
+     "id": "basil",
+     "name": {
+      "fr": "Basilic",
+      "en": "Basil"
+     },
+     "quantity": 2,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "olive-oil",
+     "name": {
+      "fr": "Huile d'olive",
+      "en": "Olive oil"
+     },
+     "quantity": 4,
+     "unit": "tablespoon"
+    },
+    {
+     "id": "salt",
+     "name": {
+      "fr": "Sel",
+      "en": "Salt"
+     },
+     "quantity": null,
+     "unit": "piece"
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "fr": "Poivre",
+      "en": "Pepper"
+     },
+     "quantity": null,
+     "unit": "piece"
+    }
+   ],
+   "steps": [
+    {
+     "fr": "Préparez séparément les garnitures : épinards tombés, poivrons et courgettes poêlés, tomates en dés.",
+     "en": "Prepare each filling separately: wilted spinach, fried peppers and courgettes, diced tomatoes."
+    },
+    {
+     "fr": "Battez 3 œufs par garniture, avec un peu de parmesan.",
+     "en": "Beat 3 eggs per filling with a little parmesan."
+    },
+    {
+     "fr": "Cuisez chaque omelette à plat, de la taille de votre moule.",
+     "en": "Cook each omelette flat, the size of your tin."
+    },
+    {
+     "fr": "Empilez les omelettes dans un moule chemisé en pressant légèrement.",
+     "en": "Stack the omelettes in a lined tin, pressing lightly."
+    },
+    {
+     "fr": "Réfrigérez 2 heures, démoulez et servez en parts avec du basilic.",
+     "en": "Chill for 2 hours, turn out and serve in wedges with basil."
+    }
+   ]
+  }
+ ]
+}

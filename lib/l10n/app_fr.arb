@@ -1,0 +1,296 @@
+{
+  "@@locale": "fr",
+
+  "appTitle": "Miam",
+  "@appTitle": { "description": "Nom de l'application." },
+
+  "navRecipes": "Recettes",
+  "@navRecipes": { "description": "Onglet de navigation : catalogue." },
+  "navFavorites": "Favoris",
+  "@navFavorites": { "description": "Onglet de navigation : favoris." },
+  "navShoppingList": "Courses",
+  "@navShoppingList": { "description": "Onglet de navigation : liste de courses (libellé court)." },
+  "navSettings": "Réglages",
+  "@navSettings": { "description": "Onglet de navigation : réglages." },
+
+  "recipesTitle": "Que cuisine-t-on ?",
+  "@recipesTitle": { "description": "Titre de l'écran catalogue." },
+  "searchHint": "Recette ou ingrédient",
+  "@searchHint": { "description": "Indication du champ de recherche." },
+  "searchLabel": "Rechercher une recette",
+  "@searchLabel": { "description": "Libellé accessible du champ de recherche." },
+  "searchClear": "Effacer la recherche",
+  "@searchClear": { "description": "Bouton vidant le champ de recherche." },
+  "filtersLabel": "Filtres",
+  "@filtersLabel": { "description": "Libellé accessible de la rangée de filtres." },
+  "filterQuick": "Rapide",
+  "@filterQuick": { "description": "Filtre : recettes de 30 minutes ou moins." },
+  "filterVegetarian": "Végétarien",
+  "@filterVegetarian": { "description": "Filtre et badge : recettes végétariennes." },
+  "categoryStarter": "Entrées",
+  "@categoryStarter": { "description": "Catégorie de recette." },
+  "categoryMain": "Plats",
+  "@categoryMain": { "description": "Catégorie de recette." },
+  "categoryDessert": "Desserts",
+  "@categoryDessert": { "description": "Catégorie de recette." },
+  "categoryBreakfast": "Petit-déj",
+  "@categoryBreakfast": { "description": "Catégorie de recette (libellé court)." },
+  "recipesCount": "{count, plural, =0{Aucune recette} =1{1 recette} other{{count} recettes}}",
+  "@recipesCount": {
+    "description": "Nombre de résultats affichés.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "noResultsTitle": "Aucune recette trouvée",
+  "@noResultsTitle": { "description": "Titre de l'état vide de recherche." },
+  "noResultsMessage": "Essayez un autre mot-clé ou retirez des filtres.",
+  "@noResultsMessage": { "description": "Message de l'état vide de recherche." },
+  "resetFilters": "Réinitialiser les filtres",
+  "@resetFilters": { "description": "Bouton réinitialisant recherche et filtres." },
+  "loading": "Chargement…",
+  "@loading": { "description": "Libellé accessible des indicateurs de chargement." },
+  "errorTitle": "Oups, un problème est survenu",
+  "@errorTitle": { "description": "Titre générique d'erreur." },
+  "errorRecipesMessage": "Impossible de charger les recettes.",
+  "@errorRecipesMessage": { "description": "Message d'erreur de chargement du catalogue." },
+  "retry": "Réessayer",
+  "@retry": { "description": "Bouton pour relancer une action échouée." },
+  "recipeCardSemantics": "{title}. {duration}. Difficulté : {difficulty}.",
+  "@recipeCardSemantics": {
+    "description": "Libellé lu par le lecteur d'écran pour une carte de recette.",
+    "placeholders": {
+      "title": { "type": "String" },
+      "duration": { "type": "String" },
+      "difficulty": { "type": "String" }
+    }
+  },
+  "recipeImageSemantics": "Photo : {title}",
+  "@recipeImageSemantics": {
+    "description": "Description de la photo d'une recette.",
+    "placeholders": { "title": { "type": "String" } }
+  },
+
+  "durationMinutes": "{minutes} min",
+  "@durationMinutes": {
+    "description": "Durée de moins d'une heure.",
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "durationHours": "{hours} h",
+  "@durationHours": {
+    "description": "Durée en heures pleines.",
+    "placeholders": { "hours": { "type": "int" } }
+  },
+  "durationHoursMinutes": "{hours} h {minutes}",
+  "@durationHoursMinutes": {
+    "description": "Durée en heures et minutes.",
+    "placeholders": {
+      "hours": { "type": "int" },
+      "minutes": { "type": "int" }
+    }
+  },
+  "difficultyEasy": "Facile",
+  "@difficultyEasy": { "description": "Niveau de difficulté." },
+  "difficultyMedium": "Moyen",
+  "@difficultyMedium": { "description": "Niveau de difficulté." },
+  "difficultyHard": "Difficile",
+  "@difficultyHard": { "description": "Niveau de difficulté." },
+
+  "addToFavorites": "Ajouter aux favoris",
+  "@addToFavorites": { "description": "Action du bouton cœur (recette non favorite)." },
+  "removeFromFavorites": "Retirer des favoris",
+  "@removeFromFavorites": { "description": "Action du bouton cœur (recette favorite)." },
+  "favoritesTitle": "Mes favoris",
+  "@favoritesTitle": { "description": "Titre de l'écran des favoris." },
+  "favoritesEmptyTitle": "Pas encore de favoris",
+  "@favoritesEmptyTitle": { "description": "Titre de l'état vide des favoris." },
+  "favoritesEmptyMessage": "Touchez le cœur d'une recette pour la retrouver ici.",
+  "@favoritesEmptyMessage": { "description": "Message de l'état vide des favoris." },
+  "browseRecipes": "Parcourir les recettes",
+  "@browseRecipes": { "description": "Bouton menant au catalogue." },
+  "favoriteRemoved": "« {title} » retiré des favoris",
+  "@favoriteRemoved": {
+    "description": "Confirmation de suppression d'un favori.",
+    "placeholders": { "title": { "type": "String" } }
+  },
+  "undo": "Annuler",
+  "@undo": { "description": "Action d'annulation dans une snackbar." },
+
+  "prepTime": "Préparation",
+  "@prepTime": { "description": "Libellé du temps de préparation." },
+  "cookTime": "Cuisson",
+  "@cookTime": { "description": "Libellé du temps de cuisson." },
+  "difficultyLabel": "Difficulté",
+  "@difficultyLabel": { "description": "Libellé du niveau de difficulté." },
+  "servingsTitle": "Portions",
+  "@servingsTitle": { "description": "Titre du sélecteur de portions." },
+  "servingsCount": "{count, plural, =1{1 personne} other{{count} personnes}}",
+  "@servingsCount": {
+    "description": "Nombre de personnes servies.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "decreaseServings": "Retirer une portion",
+  "@decreaseServings": { "description": "Bouton diminuant le nombre de portions." },
+  "increaseServings": "Ajouter une portion",
+  "@increaseServings": { "description": "Bouton augmentant le nombre de portions." },
+  "ingredientsTitle": "Ingrédients",
+  "@ingredientsTitle": { "description": "Titre de la section ingrédients." },
+  "stepsTitle": "Étapes",
+  "@stepsTitle": { "description": "Titre de la section des étapes." },
+  "stepNumber": "Étape {number}",
+  "@stepNumber": {
+    "description": "Numéro d'une étape.",
+    "placeholders": { "number": { "type": "int" } }
+  },
+  "toTaste": "selon votre goût",
+  "@toTaste": { "description": "Quantité libre (sel, poivre…)." },
+  "addToShoppingList": "Ajouter aux courses",
+  "@addToShoppingList": { "description": "Bouton ajoutant les ingrédients à la liste de courses." },
+  "addedToShoppingList": "{count, plural, =1{1 ingrédient ajouté aux courses} other{{count} ingrédients ajoutés aux courses}}",
+  "@addedToShoppingList": {
+    "description": "Confirmation d'ajout à la liste de courses.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "view": "Voir",
+  "@view": { "description": "Action « voir » dans une snackbar." },
+  "startCooking": "Mode cuisine",
+  "@startCooking": { "description": "Bouton lançant le mode pas-à-pas." },
+  "recipeNotFound": "Cette recette est introuvable.",
+  "@recipeNotFound": { "description": "Erreur quand l'identifiant de recette est inconnu." },
+
+  "cookingStepProgress": "Étape {current} sur {total}",
+  "@cookingStepProgress": {
+    "description": "Progression dans le mode cuisine.",
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "previousStep": "Précédent",
+  "@previousStep": { "description": "Bouton : étape précédente." },
+  "nextStep": "Suivant",
+  "@nextStep": { "description": "Bouton : étape suivante." },
+  "finishCooking": "Terminer",
+  "@finishCooking": { "description": "Bouton de la dernière étape." },
+  "cookingDone": "Bon appétit !",
+  "@cookingDone": { "description": "Message affiché en quittant le mode cuisine." },
+
+  "shoppingListTitle": "Liste de courses",
+  "@shoppingListTitle": { "description": "Titre de l'écran liste de courses." },
+  "shoppingRemaining": "{count, plural, =0{Tout est dans le panier !} =1{1 article à acheter} other{{count} articles à acheter}}",
+  "@shoppingRemaining": {
+    "description": "Résumé de la liste de courses.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "clearChecked": "Retirer les articles cochés",
+  "@clearChecked": { "description": "Action supprimant les articles cochés." },
+  "clearAll": "Vider la liste",
+  "@clearAll": { "description": "Action supprimant tous les articles." },
+  "clearAllConfirmTitle": "Vider la liste de courses ?",
+  "@clearAllConfirmTitle": { "description": "Titre du dialogue de confirmation." },
+  "clearAllConfirmMessage": "Tous les articles seront supprimés.",
+  "@clearAllConfirmMessage": { "description": "Message du dialogue de confirmation." },
+  "cancel": "Annuler",
+  "@cancel": { "description": "Bouton d'annulation d'un dialogue." },
+  "confirmClear": "Vider",
+  "@confirmClear": { "description": "Bouton de confirmation du vidage." },
+  "shoppingEmptyTitle": "Votre liste est vide",
+  "@shoppingEmptyTitle": { "description": "Titre de l'état vide de la liste de courses." },
+  "shoppingEmptyMessage": "Ajoutez les ingrédients d'une recette en un geste : les doublons sont regroupés.",
+  "@shoppingEmptyMessage": { "description": "Message de l'état vide de la liste de courses." },
+  "itemRemoved": "« {name} » supprimé",
+  "@itemRemoved": {
+    "description": "Confirmation de suppression d'un article.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "fromRecipes": "{count, plural, =1{Pour 1 recette} other{Pour {count} recettes}}",
+  "@fromRecipes": {
+    "description": "Nombre de recettes ayant ajouté l'article.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "settingsTitle": "Réglages",
+  "@settingsTitle": { "description": "Titre de l'écran réglages." },
+  "languageSection": "Langue",
+  "@languageSection": { "description": "Section de choix de la langue." },
+  "languageSystem": "Langue de l'appareil",
+  "@languageSystem": { "description": "Option : suivre la langue du système." },
+  "languageFrench": "Français",
+  "@languageFrench": { "description": "Option : français (toujours écrit en français)." },
+  "languageEnglish": "English",
+  "@languageEnglish": { "description": "Option : anglais (toujours écrit en anglais)." },
+  "themeSection": "Apparence",
+  "@themeSection": { "description": "Section de choix du thème." },
+  "themeSystem": "Automatique",
+  "@themeSystem": { "description": "Option : suivre le thème du système." },
+  "themeLight": "Clair",
+  "@themeLight": { "description": "Option : thème clair." },
+  "themeDark": "Sombre",
+  "@themeDark": { "description": "Option : thème sombre." },
+  "aboutSection": "À propos",
+  "@aboutSection": { "description": "Section à propos." },
+  "replayOnboarding": "Revoir l'introduction",
+  "@replayOnboarding": { "description": "Relance l'écran d'accueil." },
+  "aboutApp": "À propos de Miam",
+  "@aboutApp": { "description": "Ouvre la boîte « à propos »." },
+  "appLegalese": "Photos : TheMealDB.com. Recettes adaptées pour l'application.",
+  "@appLegalese": { "description": "Mentions légales et crédits." },
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "description": "Version de l'application.",
+    "placeholders": { "version": { "type": "String" } }
+  },
+
+  "onboardingTitle1": "Des recettes qui donnent faim",
+  "@onboardingTitle1": { "description": "Titre de la page 1 de l'introduction." },
+  "onboardingBody1": "Un carnet de recettes simples, du petit-déjeuner au dessert, en français et en anglais.",
+  "@onboardingBody1": { "description": "Texte de la page 1 de l'introduction." },
+  "onboardingTitle2": "Des portions sur mesure",
+  "@onboardingTitle2": { "description": "Titre de la page 2 de l'introduction." },
+  "onboardingBody2": "Les quantités se recalculent automatiquement selon le nombre d'invités.",
+  "@onboardingBody2": { "description": "Texte de la page 2 de l'introduction." },
+  "onboardingTitle3": "Des courses sans effort",
+  "@onboardingTitle3": { "description": "Titre de la page 3 de l'introduction." },
+  "onboardingBody3": "Ajoutez les ingrédients à votre liste : les doublons sont additionnés pour vous.",
+  "@onboardingBody3": { "description": "Texte de la page 3 de l'introduction." },
+  "onboardingSkip": "Passer",
+  "@onboardingSkip": { "description": "Bouton pour ignorer l'introduction." },
+  "onboardingNext": "Suivant",
+  "@onboardingNext": { "description": "Bouton : page suivante de l'introduction." },
+  "onboardingStart": "C'est parti !",
+  "@onboardingStart": { "description": "Bouton final de l'introduction." },
+  "onboardingPageIndicator": "Page {current} sur {total}",
+  "@onboardingPageIndicator": {
+    "description": "Indicateur de page accessible.",
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "unitGram": "g",
+  "@unitGram": { "description": "Symbole du gramme." },
+  "unitKilogram": "kg",
+  "@unitKilogram": { "description": "Symbole du kilogramme." },
+  "unitMilliliter": "ml",
+  "@unitMilliliter": { "description": "Symbole du millilitre." },
+  "unitLiter": "l",
+  "@unitLiter": { "description": "Symbole du litre." },
+  "unitTablespoon": "c. à soupe",
+  "@unitTablespoon": { "description": "Cuillère à soupe (abrégé)." },
+  "unitTeaspoon": "c. à café",
+  "@unitTeaspoon": { "description": "Cuillère à café (abrégé)." },
+  "unitPinch": "{count, plural, one{pincée} other{pincées}}",
+  "@unitPinch": {
+    "description": "Pincée, accordée au nombre.",
+    "placeholders": { "count": { "type": "num", "format": "decimalPattern" } }
+  },
+  "unitClove": "{count, plural, one{gousse} other{gousses}}",
+  "@unitClove": {
+    "description": "Gousse (d'ail), accordée au nombre.",
+    "placeholders": { "count": { "type": "num", "format": "decimalPattern" } }
+  },
+  "unitSlice": "{count, plural, one{tranche} other{tranches}}",
+  "@unitSlice": {
+    "description": "Tranche, accordée au nombre.",
+    "placeholders": { "count": { "type": "num", "format": "decimalPattern" } }
+  }
+}
